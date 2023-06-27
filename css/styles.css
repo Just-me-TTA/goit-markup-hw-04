@@ -105,7 +105,7 @@ gap: 40px;}
 
 /* Hero-section styles */
 
-.hero.hero-container{ 
+.hero .hero-container{ 
         padding: 188px 0 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-bckgrnd-img.jpg);
         background-repeat: no-repeat;
@@ -249,7 +249,10 @@ border-radius: 4%;}
 /* Footer styles */
 .footer {padding: 100px 0;
     background-color: var(--main-text-color);}
-.footer-container {display: flex; gap: 120px;}
+.footer-container {display: flex; 
+    align-items: baseline;
+    }
+.footer-logo-container{margin-right: 120px;}
 .footer-logo-alt{color: var(--first-font);}
 .footer-link{display: inline-block;
 margin-bottom: 16px;}
