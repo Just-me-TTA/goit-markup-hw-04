@@ -168,13 +168,13 @@ gap: 24px;}
 max-width: 264px;} */
 
 /* Our work section */
-.our-work {padding-bottom: 120px;}
+/* .our-work-container {padding-bottom: 120px;} */
 
 .our-work-title{margin-bottom: 72px;}
 
 .our-work-list {display: flex;
                 gap: 24px;
-                padding-bottom: 118px;}
+                padding-bottom: 120px;}
 .our-work-item {border: 1px solid #e7e9fc;}
 
 /* Our Team section  */
@@ -236,7 +236,7 @@ justify-content:center;
 align-items: center;
 gap: 24px;}
 
-.customer-link .customers-item-icon {transition: fill var(--transition), border:var(--transition)}
+.customer-link .customers-item-icon {transition: fill var(--transition), border var(--transition);}
 .customer-link:hover .customers-item-icon {fill:#404BBF;
 border: 1px solid #404bbf;}
 .customer-link:focus .customers-item-icon {fill:#404BBF;
@@ -249,6 +249,7 @@ border-radius: 4%;}
 /* Footer styles */
 .footer {padding: 100px 0;
     background-color: var(--main-text-color);}
+.footer-container {display: flex; gap: 120px;}
 .footer-logo-alt{color: var(--first-font);}
 .footer-link{display: inline-block;
 margin-bottom: 16px;}
@@ -256,6 +257,23 @@ margin-bottom: 16px;}
     display: block;
     max-width: 264px;
     color: var(--first-font);}
+.footer-social-list{display: flex; gap: 16px; margin-top: 16px;}
+.footer-social-item{
+    width: 40px;
+    height: 40px;
+    }
+.footer-social-link {width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+.footer-social-link:hover {background-color: #31D0AA;}
+.footer-social-link:focus {background-color: #31D0AA;}
+.footer-social-icon {fill: #F4F4FD;}
 
     /* Poftfolio Unic Styles */
 .portfolio-section {padding: 96px 0 120px 0;}
